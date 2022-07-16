@@ -21,12 +21,7 @@ const { z, ...point2D } = point3D;
 
     [q, y] = [y, q];
     console.log(q, y);
-
-
-
-
-
-
-
-
 })
+const point2D = { x: 1, y: 2 };
+
+const test = { ...point2D, z: 3 };
